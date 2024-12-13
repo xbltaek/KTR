@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth; /* Плавный скролл */
+  }
+  
+  body, html{
+
+  }
+  
+  section {
+    height: 100vh; /* Полная высота экрана */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .button-container {
+    scroll-snap-type: y mandatory; /* Вертикальное прилипание */
+    overflow-y: auto; /* Позволяет вертикальную прокрутку */
+    display: flex;
+  }
+  
+  /* Стили кнопок */
+  .red, .purple, .blue, .green, .black {
+    width: 120px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    scroll-snap-type: ;
+  }
+  
+  .red { background-color: #6a150b4d; }
+  .purple { background-color: #44147c3d; }
+  .blue { background-color: #1a2d5549; }
+  .green { background-color: #2733164b; }
+  .black { background-color: #1112124f; }
+  
+.sect {
+    min-width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+}
